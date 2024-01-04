@@ -1,0 +1,270 @@
+body{
+    color: #ffffff;
+    font-family: Arial, sans-serif; 
+    background-image: url(./img/fondofit.jpg);
+}
+#navBlanca{
+    background: linear-gradient(to bottom, #ffffff, #000000);
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+}
+#adLogoCarrusel,#adLogoCarruseldos,#adLogoCarruseltres{
+    height: 600px;
+}
+
+.hr-orange-lg {
+    border-color:#9e0c39 ;
+    border-width: 10px;
+}
+
+/*Estilo de las card*/
+/* Estilos personalizados para la tarjeta */
+.col-4.p-4 {
+/* Ajustes de margen y relleno para la columna */
+    margin: 10px;
+    padding: 10px;
+}
+#cardTiposEntrenamiento{
+/* Estilos generales para la tarjeta */
+    border: 1px solid #ddd; /* Borde delgado y suave */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Evitar que las esquinas redondeadas afecten la imagen */
+    transition: transform 0.3s; /* Agregar una transición suave en hover */
+}
+
+#cardTiposEntrenamiento:hover {
+    transform: scale(1.05); /* Hacer la tarjeta ligeramente más grande al pasar el ratón por encima */
+}
+#imgEntrenamientoFuerza{
+    /* Ajustes para la imagen dentro de la tarjeta */
+    width: 100%; /* Hacer que la imagen ocupe el ancho completo de la tarjeta */
+    height: 625px; /* Mantener la proporción de aspecto original */
+    border-bottom: 1px solid #ddd; /* Línea delgada en la parte inferior de la imagen */
+}
+#imgEntrenamientoResistencia {
+    width: 100%; /* Hacer que la imagen ocupe el ancho completo de la tarjeta */
+    height: auto; /* Mantener la proporción de aspecto original */
+    border-bottom: 1px solid #ddd;
+}
+#imgEntrenamientoFlexibilidad{
+    width: 100%; /* Hacer que la imagen ocupe el ancho completo de la tarjeta */
+    height: auto; /* Mantener la proporción de aspecto original */
+    border-bottom: 1px solid #ddd;
+}
+.card-body {
+    /* Estilos para el cuerpo de la tarjeta */
+    text-align: center; /* Centrar el contenido */
+}
+
+.btn-dark {
+    /* Estilos para el botón */
+    background-color: #343a40; /* Color de fondo oscuro para el botón */
+    color: #fff; /* Texto blanco en el botón */
+    border: none; /* Sin borde en el botón */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado en el texto del botón */
+    display: inline-block; /* Evitar que el botón ocupe todo el ancho disponible */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+}
+.btn-dark:hover {
+    background-color: #9e0c39; /* Cambiar el color de fondo en hover */
+}
+#quienesSomosParte{
+    border-radius: 10px;    
+    padding: 20px; 
+}
+
+/*Card de Planes Nutricionales*/
+#cardPlanesNutricionales {
+    background-color: #f8f9fa; /* Color de fondo */
+    border: 1px solid #dee2e6; /* Borde de la tarjeta */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px; /* Espaciado interno */
+    margin: 20px; /* Margen exterior */
+}
+
+#cardPlanesNutricionales h4 {
+    color: #343a40; /* Color del encabezado */
+}
+
+#cardPlanesNutricionales .hr-orange-lg {
+    border-color: #FFA500; /* Color del borde del hr */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+#cardPlanesNutricionales .text-center {
+    text-align: center; /* Centrar el texto */
+}
+
+#cardPlanesNutricionales p {
+    color: #495057; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    line-height: 1.5; /* Altura de línea */
+}
+
+#cardPlanesNutricionales ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+}
+
+#cardPlanesNutricionales li {
+    padding-left: 20px; /* Espaciado a la izquierda para el ícono */
+    margin-bottom: 10px; /* Margen inferior entre elementos de la lista */
+}
+
+
+/*Parte del Gym virtual*/
+#containerFluidGymVirtual{
+    border-radius: 10px;    
+    padding: 20px; 
+}
+h4.text-center.text-white {
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #ffffff; 
+    margin-bottom: 20px; 
+}
+h2.text-center.text-white {
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #ffffff; 
+    margin-bottom: 20px; 
+
+}
+
+
+/*Card de Prograamas vrituales*/
+#cardProgramasEntrenamiento {
+    border: 1px solid #dee2e6; /* Borde de la tarjeta */
+    border-radius: 10px; /* Esquinas redondeadas */
+    overflow: hidden; /* Ocultar desbordamiento de la imagen si es necesario */
+    transition: transform 0.3s; /* Agregar una transición suave en hover */
+}
+
+#cardProgramasEntrenamiento:hover {
+    transform: scale(1.05); /* Hacer la tarjeta ligeramente más grande al pasar el ratón por encima */
+}
+
+#cardProgramasEntrenamiento img {
+    width: 100%; /* Hacer que la imagen ocupe el ancho completo de la tarjeta */
+    border-bottom: 1px solid #dee2e6; /* Línea delgada en la parte inferior de la imagen */
+}
+
+#cardProgramasEntrenamiento .card-body {
+    padding: 15px; /* Espaciado interno del cuerpo de la tarjeta */
+}
+
+#cardProgramasEntrenamiento h4 {
+    color: #343a40; /* Color del encabezado */
+}
+
+#cardProgramasEntrenamiento a.btn-danger {
+    background-color: #dc3545; /* Color de fondo del botón */
+    color: #fff; /* Texto blanco en el botón */
+    text-decoration: none; /* Sin subrayado en el texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    display: inline-block; /* Evitar que el botón ocupe todo el ancho disponible */
+    transition: background-color 0.3s; /* Agregar una transición suave en hover */
+}
+
+#cardProgramasEntrenamiento a.btn-danger:hover {
+    background-color: #8c4646; /* Cambiar el color de fondo en hover */
+}
+#programasDigitales,#gymVirtual,#enCasa{
+    height: 240px;
+}
+#title{
+    font-style: italic;
+}
+#containerSuplementos{
+    background-color: #ffffff;
+    border-radius: 5px; /* Bordes redondeados para el botón */
+}
+#imgSuplementos{
+    height: 300px;
+    width: 600px;
+    border-radius: 12px;
+    margin-top: 6px;
+
+
+}
+#imgSupHerbales{
+    width: auto;
+    height: 350px;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+#textRigth{
+    text-align: right;
+    float: right;
+    margin-top: 80px;
+
+}
+#textRigth:hover{
+    background-color: #9e0c39;
+}
+#containerSuplementos{
+    background: linear-gradient(to bottom, #ffd700, #000000);
+}
+/* Estilo para los elementos con IDs retoUno, retoDos, y retoTres */
+#retoUno, #retoDos, #retoTres {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)); /* Degradado desde transparente a negro */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que el degradado no se desborde */
+    margin-bottom: 20px; /* Margen inferior para separar los elementos */
+    transition: transform 0.3s; /* Transición para el efecto hover */
+    position: relative; /* Para posicionar correctamente el enlace */
+    color: #ffffff;
+}  
+/* Estilo para la imagen dentro de los elementos con IDs retoUno, retoDos, y retoTres */
+#retoUno img, #retoDos img, #retoTres img {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del elemento */
+    height: 250px;
+    border-radius: 10px; /* Bordes redondeados para la imagen si es necesario */
+    transition: transform 0.3s; /* Transición para el efecto hover de la imagen */
+
+}  
+/* Estilo para el enlace que aparecerá al hacer hover en el elemento */
+#retoUno:hover, #retoDos:hover, #retoTres:hover {
+    cursor: pointer; /* Cambia el cursor al hacer hover */
+    transform: scale(1.05); /* Efecto de escala al hacer hover */
+}  
+/* Estilo para el enlace dentro del elemento en hover */
+#retoUno a, #retoDos a, #retoTres a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#btnCTA {
+    background-color: #ff0303;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para cambiar el color de fondo al hacer hover en el botón */
+#btnCTA:hover {
+    background-color: #2980b9;
+}
+
+
+
+#footer{
+    background: linear-gradient(to bottom, #ffffff, #000000);
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+}
